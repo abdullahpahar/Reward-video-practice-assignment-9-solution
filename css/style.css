@@ -149,16 +149,97 @@ h1 {
     font-size: 18px;
     font-weight: 400;
 }
-.Right-site-content img{
+
+.Right-site-content img {
     margin: 100px auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
 .span-btn {
     color: rgb(255, 255, 255);
     font-family: Inter;
     font-size: 18px;
     font-weight: 700;
+}
+
+/* Discount section Start Here */
+
+.discount-container {
+    width: 1320px;
+    height: 986.07px;
+    border: 3px solid sandybrown;
+    margin: 50px auto;
+    position: relative;
+}
+
+.discount-content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1068px;
+    height: 260px;
+    margin: 0 auto;
+    gap: 20px;
+
+}
+
+.discount-content-container h5 {
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.discount-content-container h1 {
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    color: rgb(7, 2, 17);
+}
+
+.second-section-content p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.discount-content-container .dis-red {
+    color: rgb(255, 0, 0);
+}
+
+.solid-color {
+    width: 1316px;
+    height: 229px;
+    background-color: rgb(255, 0, 0);
+    position: absolute;
+    top: 77%;
+}
+
+.gift-box {
+    width: 796.46px;
+    height: 662.07px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+}
+
+.girl-img {
+    width: 429px;
+    height: 433px;
+    position: relative;
+    left: 11.5%;
+    top: 9.5%;
+
+}
+.discount-img{
+    position: absolute;
+    bottom: 30%;
+    left: 55%;
+    z-index: 1;
+    
 }
